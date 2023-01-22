@@ -1,3 +1,10 @@
+.repo-link {
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
   justify-content: center;
