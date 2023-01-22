@@ -1,0 +1,40 @@
+:root {
+  --primary-500: #f35627;
+  --primary-300: #ff9466;
+  --primary-50: #ffe8d9;
+
+  --neutral-900: #222222;
+  --neutral-600: #626262;
+  --neutral-50: #f7f7f7;
+
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--neutral-900);
+  color: var(--neutral-50);
+}
+
+body,
+input,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 43.75%;
+  }
+}
