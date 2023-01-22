@@ -5,7 +5,7 @@ import "./global.css";
 import GitHubImg from "./assets/github.svg";
 
 export function App() {
-  const [topLeft, setTopLeft] = useState(0);
+  const [topLeft, setTopLeft] = useState(50);
   const [topRight, setTopRight] = useState(0);
   const [bottomLeft, setBottomLeft] = useState(0);
   const [bottomRight, setBottomRight] = useState(0);
